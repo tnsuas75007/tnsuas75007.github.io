@@ -1,0 +1,43 @@
+title: shoven
+description: 쇼핑 헤븐 좋은 제품 추천 해드립니다.
+author: shoveng
+avatar: /logo.png
+email: shoven@shoven.com
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 10
+
+# Uncomment the below line and set the tracking ID for enabling Google Analytics
+# 
+# google_analytics: 
+
+# Uncomment the below lines and set the Disqus shortname for enabling Disqus
+# 
+# disqus:
+
+# Jekyll
+# ======
+exclude:
+  - scripts/
+  - README.md
+  - jekyll-theme-hamilton.gemspec
+
+# Jekyll SEO Tag (Optional)
+# =========================
+twitter:
+  username: shoven
+  card: summary
+logo: logo.png
+social:
+  name: shoven
+  links:
+    - https://twitter.com/ngzhio
+    - https://www.facebook.com/ngzhio
+    - https://github.com/ngzhio
+google_site_verification: 
+lang: en
